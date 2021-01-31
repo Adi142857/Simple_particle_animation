@@ -49,7 +49,7 @@ function Particle(x, y, dx, dy, radius) {
 		ctx.beginPath();
 		ctx.arc(this.x, this.y, this.radius, Math.PI * 2, false);
 		ctx.fill();
-		ctx.fillStyle = "grey";
+		ctx.fillStyle = "dark blue";
 	}
 
 	this.update = function() {
